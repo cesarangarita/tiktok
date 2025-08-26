@@ -15,6 +15,7 @@ import './App.css'
 function App() {
   return (
     <div className="app">
+      <div style={{background:'#fff',color:'#111',padding:'32px',fontSize:'32px',textAlign:'center'}}>TEST VISUAL: Si ves este texto, React está renderizando correctamente.</div>
       <Navbar />
       <main className="main-content">
         <Routes>
